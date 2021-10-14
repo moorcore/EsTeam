@@ -1,0 +1,101 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.navbar-brand:visited {
+    color: #e7322b;
+    !important
+}
+
+.navbar-default-color {
+    color: #e7322b;
+    !important
+}
+
+.navbar-inverse {
+    color: #e7322b;
+    !important
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #e7322b;
+}
+
+    a:hover {
+        color: #e7322be3;
+    }
+
+.btn-primary {
+    color: #fff;
+    background-color: #e7322b;
+    border-color: #c91c16;
+}
+
+    .btn-primary:hover {
+        color: #e7322b;
+        background-color: #ffffff;
+        border-color: #e7322b;
+    }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #e7322b;
+    background-color: #e7322b;
+    border-color: #c91c16;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .45rem .95rem rgba(231, 50, 43, .1);
+    border-color: #0366d6
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #e7322b21;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
